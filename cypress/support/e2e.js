@@ -18,4 +18,5 @@ import './commands'
 import '@shelex/cypress-allure-plugin';
 
 // Alternatively you can use CommonJS syntax:
-// require('./commands')
+// require('./commands')import 'cypress-mailosaur'
+import 'cypress-mailosaur'

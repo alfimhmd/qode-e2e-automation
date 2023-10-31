@@ -24,10 +24,11 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
-    baseUrl: "https://www.saucedemo.com",
+    baseUrl: "https://qode.world/career-auth",
     chromeWebSecurity: false,
     env: {
       allureReuseAfterSpec: true,
+      MAILOSAUR_API_KEY: "3EBcuJ74qBne3XlBGyFOOs7MU84W37Ul"
     },
   },
 });

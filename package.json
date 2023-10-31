@@ -20,8 +20,11 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.0.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@faker-js/faker": "^8.2.0",
     "@shelex/cypress-allure-plugin": "^2.34.0",
     "cypress": "^12.0.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mailosaur": "^2.14.0",
     "esbuild": "^0.16.4",
     "multiple-cucumber-html-reporter": "^3.0.1"
   }
